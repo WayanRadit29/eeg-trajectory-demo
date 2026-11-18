@@ -221,3 +221,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Local datasets and exported bundles
+/data/
+/datasets/
+/demo_bundle/
+/demo_bundles/
+/models/
+*.mat
+*.edf
+*.bdf
+
+# Exported model files and weights
+*.onnx
+*.onnx.data
+*.ort
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Desktop builds and the future source-controlled PyInstaller configuration
+*.exe
+!/packaging/trajdemo.spec
